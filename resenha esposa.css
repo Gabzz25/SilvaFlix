@@ -1,0 +1,77 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#header {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+#resenha1, #resenha2 {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#resenha1 h2, #resenha2 h2 {
+    color: #ffd700;
+    margin-bottom: 10px;
+}
+
+#resenha1 img, #resenha2 img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+#resenha1 p, #resenha2 p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#nota1, #nota2 {
+    font-weight: bold;
+    color: #00ff7f;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#voltar {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#voltar a {
+    color: #00aaff;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid #00aaff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#voltar a:hover {
+    background-color: #00aaff;
+    color: #121212;
+}
+
+h2{
+    text-align: center;
+}
